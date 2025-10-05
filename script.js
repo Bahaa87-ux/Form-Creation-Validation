@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             isValid = false;
             messages.push('Password must be at least 8 characters')
         }
-        feedBack.style.display = "block"
+        // feedBack.style.display = "block"
 
         if (isValid) {
             feedBack.textContent = "Registration successful!";
